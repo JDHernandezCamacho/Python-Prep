@@ -159,7 +159,7 @@ mi_telefono = 1234567890;
 mi_pais = 'Mexico';
 mi_estado = 'Puebla';
 
-concat = "Hola, soy " + nombre + " vivo en " + mi_estado + ", " + mi_pais + ".";
+concat = "Hola, soy " + nombre + " vivo en " + mi_estado + ", " + mi_pais + "."; ##Solo tipo strings
 persona = f"Hola! Mi nombre es {nombre} actualmente radico en {mi_estado} ubicado en {mi_pais}, tengo {mi_edad} años de edad y mi número de teléfono es: {mi_telefono}, contactame.";
 
 print(concat);
