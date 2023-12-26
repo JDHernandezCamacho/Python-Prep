@@ -1,9 +1,8 @@
-import sys
-# Comprobación de seguridad, ejecutar sólo si se recibe 3 argumentos
-if len(sys.argv) == 4:
-    print("El primer parámetro es:",sys.argv[1])
-    print("El segundo parámetro es:",sys.argv[2])
-    print("El tercer parámetro es:",sys.argv[3])
+import sys;
+
+if (len(sys.argv) == 4):
+    print(f"La persona que utiliza este script, se llama {sys.argv[1]}, tiene {sys.argv[2]} años de edad y es {sys.argv[3]}.");
 else:
-    print("ERROR: Introdujo una cantidad de argumentos distinta de tres (3)")
-    print('Ejemplo: clase09_ej1.py 1 2 3')
+    print("     Los datos introducidos no corresponden a los (3) parámetros, solicitados: tu nombre, tu edad, tu profesión.");
+    print("     Introduce los datos como el ejemplo: Juan-Diego, 22, Programador.");
+    print("     Recuerda que cada parámetro se separa por un espacio.");
